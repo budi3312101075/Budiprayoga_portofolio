@@ -1,0 +1,156 @@
+  /* home */
+.home {
+    min-height: 100vh;
+    flex-direction: row;
+    background: #CBE4DE;
+  }
+
+  .home .content {
+    z-index: 1;
+    padding-top: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home .content .image{
+    margin-left: 50px;
+  }
+  .home .content .image img {
+    width: 450px;
+  
+    border-radius: 50%;
+    box-shadow: 0 3px 10px var(--danger);
+  }
+  .home .content .image img:hover{
+    width: 500px;
+    transition: .5s;
+    box-shadow: 0 6px 20px var(--danger);
+  }
+  
+  .home .content .intro h2 {
+    color: var(--second);
+    font-size: 50px ;
+    font-weight: 800;
+  }
+  .home .content .intro h2 span {
+    font-size: 52px;
+    font-weight: 800;
+    color: var(--danger);
+  }
+  .home .content .intro p {
+    font-size: 26px;
+    color: var(--dark);
+    font-weight: 600;
+  }
+  .home .content .intro .budi {
+    font-size: 18px;
+    color: var(--second);
+    font-weight: 600;
+  }
+
+
+  
+/* Skills */
+  .skil {
+    min-height: 100vh;
+    flex-direction: row;
+    background: #0E8388;
+  }
+
+  .about .skills{
+    background: #0003a0;
+    color: var(--light);
+    min-height: 100vh;
+    align-items: center;
+  } 
+.skills .container .title h2{
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 60px;
+    padding-top: 8vh;
+  }
+.skills .container .title i{
+    color: yellow;
+    font-size: 36px;
+  }
+  
+.skills .container{
+    justify-content: center;
+  }
+ .skills .container .box{
+    border-radius: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    background:  #2C3333;
+    color: var(--light);
+    padding: 20px 8vh;
+    margin-bottom: 30px;
+  }
+ .skills .container .box h3{
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #CBE4DE;
+  }
+  
+ .skills .container .box span{
+    color: yellow;
+  }
+  
+.skills .container .box .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+.skills .container .box .image img{
+    width: 50px;
+    box-sizing: border-box;
+    background-color: #2E4F4F;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    transition: .5s;
+  
+  }
+.skills .container .box .image img:hover{
+    background-color: var(--dark);
+  }
+
+
+
+  /* Certification */
+  .certification{
+    min-height: 100vh;
+    background: #CBE4DE;
+  }
+
+  .certification .table{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .certification h2{
+    font-size: 40px ;
+    font-weight: 800;
+    margin-bottom: 100px;
+  } 
+
+  /* projects */
+  .projects{
+    min-height: 100vh;
+    background: #0E8388;
+  }
+
+  .projects .table{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .projects h2{
+    font-size: 40px ;
+    font-weight: 800;
+    margin-bottom: 100px;
+  } 
